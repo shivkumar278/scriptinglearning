@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Enter the number"
+read number
+if [$number -qt 10]; then
+echo "Enter the number is  greater then 10"
+else
+echo "Enter the number is less then 10"
+fi

@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "Enter the file to backup:"
+read filename
+backup_dir=~/backup
+cp $filename $backup_dir
+echo "Backup of $filename completed in $backup_dir"

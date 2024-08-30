@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Enter the name"
+read name
+if ["$name"=="john"];then
+echo "Welcome,john"
+else
+echo "You are not john"
+fi
